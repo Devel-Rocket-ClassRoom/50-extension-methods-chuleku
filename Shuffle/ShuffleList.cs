@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-class ShuffleList
+static class ShuffleList
 {
-    public T[] Shuffle<T>(T[] array)
+    public static T[] Shuffle<T>(T[] array)
     {
         if(array == null) throw new ArgumentNullException(nameof(array));
         Random random = new Random();

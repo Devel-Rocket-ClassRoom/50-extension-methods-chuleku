@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-class Palindrome
+static class Palindrome
 {
-    public bool IsPalidrome(string s)
+    public static bool IsPalidrome(this string s)
     {
         if(s ==null|| s=="")
         {
